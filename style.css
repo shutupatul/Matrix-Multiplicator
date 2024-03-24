@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+}
+
+.matrix-input {
+    margin-bottom: 10px;
+    margin-left: 550px;
+}
+
+.matrix-input input {
+    width: 40px;
+    margin-right: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: cornflowerblue;
+    margin-bottom: 20px;
+}
+h3{
+    text-align: center;
+        color: cornflowerblue;
+        margin-bottom: 20px;
+}
+
+.buttons-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.matrix {
+    margin-bottom: 10px;
+}
+
+.matrix-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.matrix-row {
+    display: flex;
+    justify-content: center;
+}
+
+#result .matrix {
+    display: flex;
+    flex-direction: column;
+}
+
+#result .matrix-row {
+    display: flex;
+    justify-content: center;
+}
+
+#result .matrix-item {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#result .matrix-item:last-child {
+    margin-right: 0;
+}
+
+#result .matrix {
+    margin-bottom: 10px;
+}

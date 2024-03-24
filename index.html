@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Multiplication Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Matrix Multiplication Calculator</h1>
+    <div class="matrix-input">
+        <label for="rows1">Rows of Matrix 1:</label>
+        <input type="number" id="rows1">
+        <label for="cols1">Columns of Matrix 1:</label>
+        <input type="number" id="cols1">
+    </div>
+    <div id="matrix1" class="matrix"></div>
+    <div class="matrix-input">
+        <label for="rows2">Rows of Matrix 2:</label>
+        <input type="number" id="rows2">
+        <label for="cols2">Columns of Matrix 2:</label>
+        <input type="number" id="cols2">
+    </div>
+    <div id="matrix2" class="matrix"></div>
+    <div class="buttons-container">
+        <button onclick="multiplyMatrices()">Calculate</button>
+        <button onclick="clearInputs()">Clear</button>
+    </div>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
